@@ -19,7 +19,7 @@ Age, Gender, BMI, Weight, Height, Glucose, Cholesterol, Triglycerides, ALT, AST,
 nafld/
 ├── config.yaml           # Dataset paths and hyperparameters
 ├── requirements.txt
-├── train_clinical.py     # Train XGBoost on clinical data
+├── train_clinical.py     # Train and compare ML models on clinical data
 ├── train_image.py        # Train ResNet18 on ultrasound images
 ├── predict.py            # CLI prediction
 ├── app.py                # Streamlit web interface
