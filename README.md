@@ -97,32 +97,40 @@ Performance:
 
 ---
 
-## Folder Structure
+## Project Structure
 
-```text
 NAFLD/
 │
-├── app.py
-├── predict.py
-├── config.yaml
-├── requirements.txt
+├── app.py                    # Streamlit web application
+├── predict.py                # Prediction pipeline
+├── config.yaml               # Model configuration
+├── requirements.txt          # Dependencies
 │
-├── assets/
-├── data/
-├── models/
-├── results/
+├── assets/                   # Sample ultrasound images
+│
+├── data/                     # Clinical and user data
+│
+├── models/                   # Trained ML and DL models
+│   ├── clinical_model.joblib
+│   └── image_model.pt
+│
+├── results/                  # Evaluation reports and metrics
 │
 ├── src/
-│   ├── auth.py
-│   ├── evaluation.py
-│   ├── config.py
-│   │
 │   ├── data/
-│   └── models/
+│   │   ├── clinical.py
+│   │   └── imaging.py
+│   │
+│   ├── models/
+│   │   ├── clinical_model.py
+│   │   └── image_model.py
+│   │
+│   ├── auth.py
+│   ├── config.py
+│   └── evaluation.py
 │
-├── train_clinical.py
-└── train_image.py
-```
+├── train_clinical.py         # Clinical model training
+└── train_image.py            # Image model training
 
 ---
 
