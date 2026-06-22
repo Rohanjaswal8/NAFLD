@@ -99,8 +99,6 @@ Performance:
 
 ## Project Structure
 
-## Project Structure
-
 ```text
 NAFLD/
 │
