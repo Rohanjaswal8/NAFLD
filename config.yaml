@@ -1,0 +1,25 @@
+# Dataset paths (update if you move your data)
+clinical_csv: /Users/rohanjaswal/Downloads/nafld_dataset.csv
+image_dirs:
+  nafld: /Users/rohanjaswal/Downloads/BEHSOF/NAFLD
+  non_nafld: /Users/rohanjaswal/Downloads/BEHSOF/Non-NAFLD
+
+# Output
+models_dir: models
+results_dir: results
+
+# Clinical model (all models compared; best accuracy auto-selected)
+clinical:
+  test_size: 0.2
+  random_state: 42
+
+# Image model
+image:
+  img_size: 224
+  batch_size: 16
+  epochs: 15
+  learning_rate: 0.0001
+  val_split: 0.2
+  random_state: 42
+  backbone: resnet18  # resnet18 works best from scratch on this dataset
+  pretrained: true
