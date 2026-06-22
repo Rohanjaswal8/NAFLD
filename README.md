@@ -99,6 +99,7 @@ Performance:
 
 ## Project Structure
 
+'''
 NAFLD/
 │
 ├── app.py                    # Streamlit web application
@@ -131,7 +132,7 @@ NAFLD/
 │
 ├── train_clinical.py         # Clinical model training
 └── train_image.py            # Image model training
-
+'''
 ---
 
 ## Installation
