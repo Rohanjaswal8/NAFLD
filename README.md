@@ -99,7 +99,9 @@ Performance:
 
 ## Project Structure
 
-'''
+## Project Structure
+
+```text
 NAFLD/
 │
 ├── app.py                    # Streamlit web application
@@ -108,9 +110,7 @@ NAFLD/
 ├── requirements.txt          # Dependencies
 │
 ├── assets/                   # Sample ultrasound images
-│
 ├── data/                     # Clinical and user data
-│
 ├── models/                   # Trained ML and DL models
 │   ├── clinical_model.joblib
 │   └── image_model.pt
@@ -130,9 +130,9 @@ NAFLD/
 │   ├── config.py
 │   └── evaluation.py
 │
-├── train_clinical.py         # Clinical model training
-└── train_image.py            # Image model training
-'''
+├── train_clinical.py
+└── train_image.py
+```
 ---
 
 ## Installation
