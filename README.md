@@ -191,16 +191,9 @@ https://nafldprediction.streamlit.app
 
 ---
 
-## GitHub Repository
-
-https://github.com/Rohanjaswal8/NAFLD
-
----
-
 ## Future Scope
 
 - Integration with hospital databases
-- Explainable AI (XAI)
 - Mobile Application Development
 - Real-time Clinical Decision Support
 - Multi-Disease Liver Screening
