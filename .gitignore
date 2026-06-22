@@ -1,4 +1,6 @@
 venv/
+.cache/
 __pycache__/
+results/
 *.pyc
 .DS_Store
